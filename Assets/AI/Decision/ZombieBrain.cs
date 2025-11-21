@@ -6,6 +6,12 @@ public class ZombieBrain : MonoBehaviour
     public Blackboard bb; public NavAgentAdapter nav; public Transform[] waypoints; public VisionSensor vision; public Transform player;
     StateMachine fsm; PatrolState patrol; InvestigateState investigate; ChaseState chase; SearchState search;
 
+    public string CurrentStateName { get; private set; } = "None";
+    const string PatrolName = "Patrol";
+    const string InvestigateName = "Investigate";
+    const string ChaseName = "Chase";
+    const string SearchName = "Search";
+
     void Awake()
     {
         if (!bb) bb = GetComponent<Blackboard>();
@@ -21,20 +27,20 @@ public class ZombieBrain : MonoBehaviour
 
         fsm = new StateMachine();
         patrol = new PatrolState(nav, wps, () => {
-            if (bb.lastHeard.HasValue) { fsm.Set(investigate); return true; }
-            if (bb.suspicion >= 0.8f && bb.lastSeen.HasValue) { fsm.Set(chase); return true; }
+            if (bb.lastHeard.HasValue) { SetState(investigate, InvestigateName); return true; }
+            if (bb.suspicion >= 0.8f && bb.lastSeen.HasValue) { SetState(chase, ChaseName); return true; }
             return false;
         });
-        investigate = new InvestigateState(nav, bb, () => fsm.Set(patrol));
+        investigate = new InvestigateState(nav, bb, () => SetState(patrol, PatrolName));
         search = new SearchState(nav, bb, radius: 6f, probes: 6, dwell: 1f);
-        search.onDone = () => { bb.suspicion = 0f; bb.lastSeen = null; fsm.Set(patrol); };
+        search.onDone = () => { bb.suspicion = 0f; bb.lastSeen = null; SetState(patrol, PatrolName); };
         chase = new ChaseState(nav, bb, player, (lastPos) => {
             bb.suspicion = Mathf.Clamp01(bb.suspicion - 0.2f);
-            if (lastPos.HasValue) { bb.lastSeen = lastPos; fsm.Set(search); }
-            else { bb.lastSeen = null; fsm.Set(patrol); }
+            if (lastPos.HasValue) { bb.lastSeen = lastPos; SetState(search, SearchName); }
+            else { bb.lastSeen = null; SetState(patrol, PatrolName); }
         });
     }
-    void Start() { fsm.Set(patrol); }
+    void Start() { SetState(patrol, PatrolName); }
     void Update()
     {
         // suspicion decay when calm
@@ -43,4 +49,9 @@ public class ZombieBrain : MonoBehaviour
         fsm.Tick(Time.deltaTime);
     }
 
+    void SetState(IState next, string name)
+    {
+        CurrentStateName = name;
+        fsm.Set(next);
+    }
 }

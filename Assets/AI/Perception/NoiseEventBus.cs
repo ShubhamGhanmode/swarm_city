@@ -19,17 +19,27 @@ public static class NoiseEventBus
         EnsureFreshTime();
         list.Add(new NoiseEvent { pos = pos, intensity = intensity, radius = radius, time = Time.time, type = type });
     }
-    public static bool TryGetStrongestNear(Vector3 p, float maxAge, out NoiseEvent e)
+    public static bool TryGetStrongestNear(Vector3 p, float maxAge, out NoiseEvent e, float radiusMultiplier = 1f)
     {
         EnsureFreshTime();
-        e = default; float best = -1f;
+        e = default;
+        float bestScore = -1f;
+        float bestTime = -1f;
         for (int i = list.Count - 1; i >= 0; --i)
         {
             var ev = list[i];
             if (Time.time - ev.time > maxAge) { list.RemoveAt(i); continue; }
-            float d = Vector3.Distance(p, ev.pos); if (d > ev.radius) continue;
-            float s = ev.intensity / (1f + d); if (s > best) { best = s; e = ev; }
+            float d = Vector3.Distance(p, ev.pos);
+            if (d > ev.radius * Mathf.Max(0.01f, radiusMultiplier)) continue;
+            float s = ev.intensity / (1f + d);
+            // Prefer the most recent audible noise; break ties by strength.
+            if (ev.time > bestTime || (Mathf.Approximately(ev.time, bestTime) && s > bestScore))
+            {
+                bestTime = ev.time;
+                bestScore = s;
+                e = ev;
+            }
         }
-        return best >= 0;
+        return bestScore >= 0;
     }
 }

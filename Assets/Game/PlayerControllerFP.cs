@@ -19,6 +19,9 @@ public class PlayerControllerFP : MonoBehaviour
     public float standCameraY = 1.6f;
     public float crouchCameraY = 1.0f;
     public bool crouchSilent = true;   // no noise while crouched
+    public bool IsCrouched => isCrouched;
+    public bool IsGrounded => controller.isGrounded;
+
 
     [Header("Noise")]
     public float footstepInterval = 0.45f; // seconds between steps at walkSpeed

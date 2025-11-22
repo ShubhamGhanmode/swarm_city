@@ -31,7 +31,9 @@ public class ZombieBrain : MonoBehaviour
             if (bb.suspicion >= 0.8f && bb.lastSeen.HasValue) { SetState(chase, ChaseName); return true; }
             return false;
         });
-        investigate = new InvestigateState(nav, bb, () => SetState(patrol, PatrolName));
+        investigate = new InvestigateState(nav, bb,
+            done: () => SetState(patrol, PatrolName),
+            onSight: () => { bb.suspicion = 1f; SetState(chase, ChaseName); });
         search = new SearchState(nav, bb, radius: 6f, probes: 6, dwell: 1f);
         search.onDone = () => { bb.suspicion = 0f; bb.lastSeen = null; SetState(patrol, PatrolName); };
         chase = new ChaseState(nav, bb, player, (lastPos) => {

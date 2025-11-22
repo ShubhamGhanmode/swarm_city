@@ -2,11 +2,11 @@
 using UnityEngine;
 public class InvestigateState : IState
 {
-    readonly NavAgentAdapter nav; readonly Blackboard bb; readonly System.Action done;
+    readonly NavAgentAdapter nav; readonly Blackboard bb; readonly System.Action done; readonly System.Action onSight;
     Vector3? currentTarget;
     const float retargetThreshold = 0.35f;
 
-    public InvestigateState(NavAgentAdapter nav, Blackboard bb, System.Action done) { this.nav = nav; this.bb = bb; this.done = done; }
+    public InvestigateState(NavAgentAdapter nav, Blackboard bb, System.Action done, System.Action onSight = null) { this.nav = nav; this.bb = bb; this.done = done; this.onSight = onSight; }
     public void Enter()
     {
         currentTarget = bb.lastHeard;
@@ -14,6 +14,12 @@ public class InvestigateState : IState
     }
     public void Tick(float dt)
     {
+        // If we can see the player, immediately escalate to chase.
+        if (bb.lastSeen.HasValue)
+        {
+            onSight?.Invoke();
+            return;
+        }
         // Keep chasing the freshest sound location while the player is still making noise.
         if (bb.lastHeard.HasValue)
         {

@@ -26,7 +26,8 @@ public class ZombieBrain : MonoBehaviour
         var wps = waypoints?.Select(w => w.position).ToArray() ?? new Vector3[0];
 
         fsm = new StateMachine();
-        patrol = new PatrolState(nav, wps, () => {
+        patrol = new PatrolState(nav, wps, () =>
+        {
             if (bb.lastHeard.HasValue) { SetState(investigate, InvestigateName); return true; }
             if (bb.suspicion >= 0.8f && bb.lastSeen.HasValue) { SetState(chase, ChaseName); return true; }
             return false;
@@ -36,7 +37,8 @@ public class ZombieBrain : MonoBehaviour
             onSight: () => { bb.suspicion = 1f; SetState(chase, ChaseName); });
         search = new SearchState(nav, bb, radius: 6f, probes: 6, dwell: 1f);
         search.onDone = () => { bb.suspicion = 0f; bb.lastSeen = null; SetState(patrol, PatrolName); };
-        chase = new ChaseState(nav, bb, player, (lastPos) => {
+        chase = new ChaseState(nav, bb, player, (lastPos) =>
+        {
             bb.suspicion = Mathf.Clamp01(bb.suspicion - 0.2f);
             if (lastPos.HasValue) { bb.lastSeen = lastPos; SetState(search, SearchName); }
             else { bb.lastSeen = null; SetState(patrol, PatrolName); }

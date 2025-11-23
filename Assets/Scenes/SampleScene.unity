@@ -1377,7 +1377,7 @@ MonoBehaviour:
   crouchSilent: 1
   footstepInterval: 0.45
   walkNoiseIntensity: 12
-  walkNoiseRadius: 20
+  walkNoiseRadius: 15
 --- !u!114 &566885039
 MonoBehaviour:
   m_ObjectHideFlags: 0

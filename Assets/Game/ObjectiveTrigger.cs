@@ -6,6 +6,7 @@ public class ObjectiveTrigger : MonoBehaviour
     [TextArea]
     public string newObjectiveText = "New objective";
     public bool destroyOnEnter = true;
+    public bool repeatable = false;
 
     public GameUI gameUI;
 
@@ -25,5 +26,7 @@ public class ObjectiveTrigger : MonoBehaviour
 
         if (destroyOnEnter)
             Destroy(gameObject);
+        else if (!repeatable)
+            gameObject.SetActive(false);
     }
 }

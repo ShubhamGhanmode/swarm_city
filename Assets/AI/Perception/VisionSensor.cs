@@ -9,6 +9,10 @@ public class VisionSensor : MonoBehaviour {
   public LayerMask losMask;        // MUST include the target's layer and the Obstacles layer
   public float memory = 0.5f;      // seconds to remember last seen
   public bool requirePositiveLOS = true; // if true, requires a clean hit to the target; if false, falls back to overlap check (for debugging)
+  [Header("Debug")]
+  public bool drawDebug = true;
+  public Color gizmoVisibleColor = new Color(0f, 1f, 0.4f, 0.2f);
+  public Color gizmoOccludedColor = new Color(1f, 0.6f, 0f, 0.15f);
 
   float lastSeenStamp = -999f;
 
@@ -47,5 +51,27 @@ public class VisionSensor : MonoBehaviour {
     if (!seenThisFrame && Time.time - lastSeenStamp > memory){
       bb.lastSeen = null;
     }
+  }
+
+  void OnDrawGizmosSelected(){
+    if (!drawDebug) return;
+    Vector3 eye = transform.position + Vector3.up * 1.6f;
+
+    // Draw FOV cone and reach
+    Color prev = Gizmos.color;
+    Gizmos.color = gizmoOccludedColor;
+    Gizmos.DrawWireSphere(eye, range);
+    Vector3 left = Quaternion.Euler(0f, -fov * 0.5f, 0f) * transform.forward;
+    Vector3 right = Quaternion.Euler(0f, fov * 0.5f, 0f) * transform.forward;
+    Gizmos.DrawRay(eye, left * range);
+    Gizmos.DrawRay(eye, right * range);
+
+    // Draw last seen marker if any
+    if (bb && bb.lastSeen.HasValue){
+      Gizmos.color = gizmoVisibleColor;
+      Gizmos.DrawSphere(bb.lastSeen.Value, 0.25f);
+      Gizmos.DrawLine(eye, bb.lastSeen.Value);
+    }
+    Gizmos.color = prev;
   }
 }

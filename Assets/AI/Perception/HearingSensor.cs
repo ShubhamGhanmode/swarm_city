@@ -5,6 +5,9 @@ public class HearingSensor : MonoBehaviour
     public Blackboard bb; public float maxAge = 3f;
     public float hearingRadiusMultiplier = 1f; // scale how far this actor can hear beyond the noise's own radius
     public float crouchSuppression = 0.35f; // reduces perceived intensity when player is crouched (if noise tagged "crouch")
+    [Header("Debug")]
+    public bool drawDebug = true;
+    public Color gizmoColor = new Color(0.1f, 0.55f, 1f, 0.15f);
     void Reset() { bb = GetComponent<Blackboard>(); }
     void Update()
     {
@@ -15,5 +18,19 @@ public class HearingSensor : MonoBehaviour
             bb.lastHeard = e.pos;
             bb.suspicion = Mathf.Clamp01(bb.suspicion + 0.25f * k);
         }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (!drawDebug) return;
+        Color prev = Gizmos.color;
+        Gizmos.color = gizmoColor;
+        Gizmos.DrawWireSphere(transform.position, hearingRadiusMultiplier);
+        if (bb && bb.lastHeard.HasValue)
+        {
+            Gizmos.DrawSphere(bb.lastHeard.Value, 0.2f);
+            Gizmos.DrawLine(transform.position, bb.lastHeard.Value);
+        }
+        Gizmos.color = prev;
     }
 }

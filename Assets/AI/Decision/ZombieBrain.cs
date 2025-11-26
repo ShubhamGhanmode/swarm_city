@@ -1,9 +1,17 @@
 // /AI/Decision/ZombieBrain.cs
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.AI;
 public class ZombieBrain : MonoBehaviour
 {
     public Blackboard bb; public NavAgentAdapter nav; public Transform[] waypoints; public VisionSensor vision; public Transform player;
+
+    [Header("Auto Patrol")]
+    public int autoWaypointCount = 4;
+    public float autoWaypointRadius = 8f;
+    public float autoWaypointSampleRadius = 2f;
+
     StateMachine fsm; PatrolState patrol; InvestigateState investigate; ChaseState chase; SearchState search;
 
     public string CurrentStateName { get; private set; } = "None";
@@ -23,7 +31,7 @@ public class ZombieBrain : MonoBehaviour
             if (!vision.bb) vision.bb = bb;
             vision.target = player;
         }
-        var wps = waypoints?.Select(w => w.position).ToArray() ?? new Vector3[0];
+        var wps = BuildPatrolPoints();
 
         fsm = new StateMachine();
         patrol = new PatrolState(nav, wps, () =>
@@ -57,5 +65,34 @@ public class ZombieBrain : MonoBehaviour
     {
         CurrentStateName = name;
         fsm.Set(next);
+    }
+
+    Vector3[] BuildPatrolPoints()
+    {
+        var manual = waypoints?.Where(w => w != null).Select(w => w.position).ToArray();
+        if (manual != null && manual.Length > 0) return manual;
+        return GenerateRandomPatrolPoints();
+    }
+
+    Vector3[] GenerateRandomPatrolPoints()
+    {
+        int count = Mathf.Max(1, autoWaypointCount);
+        float radius = Mathf.Max(0.5f, autoWaypointRadius);
+        float sampleRadius = Mathf.Clamp(autoWaypointSampleRadius, 0.25f, radius);
+
+        var points = new List<Vector3>();
+        Vector3 center = transform.position;
+        int attempts = count * 4; // a few tries per desired point to find the navmesh
+
+        for (int i = 0; i < attempts && points.Count < count; i++)
+        {
+            var offset2D = Random.insideUnitCircle * radius;
+            var candidate = center + new Vector3(offset2D.x, 0f, offset2D.y);
+            if (NavMesh.SamplePosition(candidate, out var hit, sampleRadius, NavMesh.AllAreas))
+                points.Add(hit.position);
+        }
+
+        if (points.Count == 0) points.Add(center);
+        return points.ToArray();
     }
 }

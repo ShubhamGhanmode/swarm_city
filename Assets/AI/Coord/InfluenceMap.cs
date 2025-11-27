@@ -1,11 +1,11 @@
-// Assets/AI/Coord/InfluenceMap.cs
+
 using UnityEngine;
 
 public class InfluenceMap : MonoBehaviour
 {
-    public Vector2 size = new Vector2(60, 60);   // meters
-    public float cell = 2f;                     // cell size
-    public float decayPerSecond = 0.9f;         // 10%/s decay
+    public Vector2 size = new Vector2(60, 60);   
+    public float cell = 2f;                     
+    public float decayPerSecond = 0.9f;         
 
     float[,] grid; int nx, nz; Vector3 origin;
 

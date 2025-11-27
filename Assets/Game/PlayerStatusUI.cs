@@ -3,8 +3,8 @@ using TMPro;
 
 public class PlayerStatusUI : MonoBehaviour
 {
-    public PlayerControllerFP player;     // drag Player here
-    public TextMeshProUGUI label;         // drag PlayerStatusText here
+    public PlayerControllerFP player;     
+    public TextMeshProUGUI label;         
 
     void Update()
     {

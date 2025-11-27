@@ -1,4 +1,4 @@
-// Assets/AI/Decision/SearchState.cs
+
 using UnityEngine;
 
 public class SearchState : IState
@@ -8,6 +8,7 @@ public class SearchState : IState
     Vector3 center; int i; float dwellTimer;
 
     public System.Action onDone;
+    public System.Action onSight;
 
     public SearchState(NavAgentAdapter nav, Blackboard bb, float radius = 6f, int probes = 6, float dwell = 1f)
     {
@@ -17,20 +18,23 @@ public class SearchState : IState
     public void Enter()
     {
         center = bb.lastSeen ?? bb.lastHeard ?? nav.agent.transform.position;
+        bb.lastSeen = null;
         i = 0; dwellTimer = 0f;
         nav.Go(ProbePos(i));
     }
 
     public void Tick(float dt)
     {
-        // if new sound arrived, let brain switch out
         if (bb.lastHeard.HasValue && Vector3.Distance(center, bb.lastHeard.Value) > 0.5f)
         {
             center = bb.lastHeard.Value; i = 0; nav.Go(ProbePos(i));
             return;
         }
-        // If vision reacquired, stop searching (brain will change state)
-        if (bb.lastSeen.HasValue) { onDone?.Invoke(); return; }
+        if (bb.lastSeen.HasValue)
+        {
+            onSight?.Invoke();
+            return;
+        }
         if (nav.Arrived)
         {
             dwellTimer += dt;

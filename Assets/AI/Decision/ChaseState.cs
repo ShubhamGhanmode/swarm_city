@@ -1,4 +1,4 @@
-// Assets/AI/Decision/ChaseState.cs
+
 using UnityEngine;
 
 public class ChaseState : IState
@@ -9,7 +9,7 @@ public class ChaseState : IState
     private readonly System.Action<Vector3?> onLost;
 
     private float loseTimer = 0f;
-    private const float loseDelay = 2f; // seconds without sight before giving up
+    private const float loseDelay = 2f; 
     private Vector3? lastKnownSight;
 
     public ChaseState(NavAgentAdapter nav, Blackboard bb, Transform target, System.Action<Vector3?> onLost)

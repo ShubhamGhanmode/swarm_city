@@ -1,4 +1,4 @@
-// /AI/Perception/NoiseEventBus.cs
+
 using System.Collections.Generic;
 using UnityEngine;
 public struct NoiseEvent { public Vector3 pos; public float intensity; public float radius; public float time; public string type; }
@@ -9,8 +9,8 @@ public static class NoiseEventBus
 
     static void EnsureFreshTime()
     {
-        // When "reload domain" is disabled in Unity, static lists survive play-mode restarts.
-        // If Time.time jumps backwards we clear stale events so zombies don't react to old noise.
+        
+        
         if (Time.time < lastTime) list.Clear();
         lastTime = Time.time;
     }
@@ -32,7 +32,7 @@ public static class NoiseEventBus
             float d = Vector3.Distance(p, ev.pos);
             if (d > ev.radius * Mathf.Max(0.01f, radiusMultiplier)) continue;
             float s = ev.intensity / (1f + d);
-            // Prefer the most recent audible noise; break ties by strength.
+            
             if (ev.time > bestTime || (Mathf.Approximately(ev.time, bestTime) && s > bestScore))
             {
                 bestTime = ev.time;

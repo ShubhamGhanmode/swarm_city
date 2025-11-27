@@ -1,4 +1,4 @@
-// /Game/ClickNoise.cs
+
 using UnityEngine;
 public class ClickNoise : MonoBehaviour
 {

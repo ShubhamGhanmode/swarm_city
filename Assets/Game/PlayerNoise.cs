@@ -13,7 +13,7 @@ public class PlayerNoise : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        // Input axes can have tiny drift; use a deadzone so we don't emit noise while idle.
+        
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         bool moving = Mathf.Abs(h) > 0.05f || Mathf.Abs(v) > 0.05f;

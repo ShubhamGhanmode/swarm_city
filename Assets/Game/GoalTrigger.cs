@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GoalTrigger : MonoBehaviour
 {
-    public GameUI gameUI; // drag reference
+    public GameUI gameUI; 
     void Awake()
     {
         if (!gameUI) gameUI = FindObjectOfType<GameUI>();
@@ -13,7 +13,7 @@ public class GoalTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             if (gameUI) gameUI.ShowMessage("You escaped!");
-            Time.timeScale = 0f; // pause
+            Time.timeScale = 0f; 
         }
     }
 }

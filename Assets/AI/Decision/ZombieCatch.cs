@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class ZombieCatch : MonoBehaviour
 {
-    public Transform player;   // drag Player
+    public Transform player;   
     public float catchRange = 1.2f;
-    public GameUI gameUI;      // drag Canvas GameUI
+    public GameUI gameUI;      
     bool caught;
 
     void Awake()

@@ -1,4 +1,4 @@
-// /AI/Core/StateMachine.cs
+
 public interface IState { void Enter(); void Tick(float dt); void Exit(); }
 public sealed class StateMachine
 {

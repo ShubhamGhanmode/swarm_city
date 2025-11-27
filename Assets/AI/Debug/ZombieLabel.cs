@@ -4,9 +4,9 @@ using TMPro;
 [DisallowMultipleComponent]
 public class ZombieLabel : MonoBehaviour
 {
-    public ZombieBrain brain;     // drag from same zombie (autofilled if left empty)
-    public TextMeshProUGUI text;  // drag StateText
-    public Blackboard bb;         // drag from same zombie (autofilled if left empty)
+    public ZombieBrain brain;     
+    public TextMeshProUGUI text;  
+    public Blackboard bb;         
     public bool faceCamera = true;
 
     void Reset() { AutoWire(); }

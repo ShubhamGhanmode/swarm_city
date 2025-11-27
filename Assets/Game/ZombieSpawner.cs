@@ -16,17 +16,17 @@ public class ZombieSpawner : MonoBehaviour
     public float spawnInterval = 10f;
     public int maxAlive = 15;
 
-    // Track zombies so we don’t exceed maxAlive
+    
     readonly List<GameObject> alive = new();
 
     void Start()
     {
         if (!zombiePrefab) return;
 
-        // Spawn initial zombies
+        
         Spawn(initialCount);
 
-        // Start timed spawning if enabled
+        
         if (enableTimedSpawns)
             StartCoroutine(SpawnLoop());
     }
@@ -37,7 +37,7 @@ public class ZombieSpawner : MonoBehaviour
         {
             yield return new WaitForSeconds(spawnInterval);
 
-            // Only check count; we do not care about "dead"
+            
             if (alive.Count < maxAlive)
                 Spawn(1);
         }
@@ -49,7 +49,7 @@ public class ZombieSpawner : MonoBehaviour
         {
             if (TrySamplePosition(out var pos))
             {
-                // Random rotation around Y axis
+                
                 Quaternion rot = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
 
                 var z = Instantiate(zombiePrefab, pos, rot);
@@ -62,7 +62,7 @@ public class ZombieSpawner : MonoBehaviour
     {
         Vector3 center = transform.position;
 
-        for (int i = 0; i < 8; i++) // 8 attempts
+        for (int i = 0; i < 8; i++) 
         {
             var offset = Random.insideUnitCircle * spawnRadius;
             var candidate = center + new Vector3(offset.x, 0f, offset.y);
@@ -74,7 +74,7 @@ public class ZombieSpawner : MonoBehaviour
             }
         }
 
-        // Fallback to spawner center
+        
         position = center;
         return false;
     }

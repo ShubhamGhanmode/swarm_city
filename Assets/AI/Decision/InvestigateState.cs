@@ -1,4 +1,4 @@
-// /AI/Decision/InvestigateState.cs
+
 using UnityEngine;
 public class InvestigateState : IState
 {
@@ -14,13 +14,13 @@ public class InvestigateState : IState
     }
     public void Tick(float dt)
     {
-        // If we can see the player, immediately escalate to chase.
+        
         if (bb.lastSeen.HasValue)
         {
             onSight?.Invoke();
             return;
         }
-        // Keep chasing the freshest sound location while the player is still making noise.
+        
         if (bb.lastHeard.HasValue)
         {
             var latest = bb.lastHeard.Value;
@@ -31,7 +31,7 @@ public class InvestigateState : IState
             }
         }
 
-        // Exit only after reaching the most recent noise and no new sounds are coming in.
+        
         if (nav.Arrived && (!bb.lastHeard.HasValue ||
                             (currentTarget.HasValue && Vector3.Distance(currentTarget.Value, bb.lastHeard.Value) <= retargetThreshold)))
         {

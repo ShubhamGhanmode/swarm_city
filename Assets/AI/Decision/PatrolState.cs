@@ -1,10 +1,10 @@
-// /AI/Decision/PatrolState.cs
+
 using UnityEngine;
 public class PatrolState : IState
 {
     readonly NavAgentAdapter nav; readonly Vector3[] wps; int i; readonly System.Func<bool> onStimulus;
     public PatrolState(NavAgentAdapter nav, Vector3[] wps, System.Func<bool> onStimulus) { this.nav = nav; this.wps = wps; this.onStimulus = onStimulus; }
-    public void Enter() { if (wps.Length > 0) nav.Go(wps[i]); }
+    public void Enter() { if (wps.Length > 0) nav.Go(wps[i]); else nav.Stop(); }
     public void Tick(float dt)
     {
         if (onStimulus()) return;

@@ -832,6 +832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &17224820
 MonoBehaviour:
@@ -1154,8 +1155,8 @@ Transform:
   m_GameObject: {fileID: 22342377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 101, y: 133, z: -173.3}
-  m_LocalScale: {x: 200, y: 10, z: 242.5013}
+  m_LocalPosition: {x: 101, y: 133, z: -177}
+  m_LocalScale: {x: 200, y: 10, z: 241.99432}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1321,6 +1322,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -276.3834
@@ -1452,6 +1457,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -2251,6 +2260,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -3303,6 +3316,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.30002
@@ -3434,6 +3451,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -4245,7 +4266,7 @@ Transform:
   m_GameObject: {fileID: 100511245}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.21454228, w: 0.97671473}
-  m_LocalPosition: {x: 98, y: 106.5, z: -320}
+  m_LocalPosition: {x: 98, y: 106.7, z: -320.9}
   m_LocalScale: {x: 127.02037, y: 10, z: 42.445}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4629,6 +4650,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 74.5181
@@ -4814,6 +4839,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -5029,6 +5058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &120312522
 MonoBehaviour:
@@ -5274,6 +5304,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -5572,6 +5606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &131219427
 MonoBehaviour:
@@ -6243,6 +6278,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -7131,6 +7170,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67
@@ -7264,6 +7307,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 240.6
@@ -7359,6 +7406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &175624139
 MonoBehaviour:
@@ -7604,6 +7652,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -8466,6 +8518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &190783358
 MonoBehaviour:
@@ -8648,6 +8701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &191011303
 MonoBehaviour:
@@ -9145,6 +9199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &212394880
 MonoBehaviour:
@@ -9396,6 +9451,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.61031
@@ -9627,6 +9686,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 242.69998
@@ -9758,6 +9821,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -10081,7 +10148,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -10154,8 +10221,8 @@ Transform:
   m_GameObject: {fileID: 232013485}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 111.7, y: 155.5, z: -142}
-  m_LocalScale: {x: 12, y: 20, z: 12}
+  m_LocalPosition: {x: 98, y: 147.2, z: -157.7}
+  m_LocalScale: {x: 12, y: 10, z: 12}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -10510,6 +10577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &237780995
 MonoBehaviour:
@@ -10692,6 +10760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &238137509
 MonoBehaviour:
@@ -12234,6 +12303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &266345238
 MonoBehaviour:
@@ -12582,6 +12652,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -13055,6 +13129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &278599758
 MonoBehaviour:
@@ -13620,6 +13695,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -77.045105
@@ -13962,6 +14041,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -690.3
@@ -14138,6 +14221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &288995034
 MonoBehaviour:
@@ -14621,6 +14705,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.61031
@@ -14752,6 +14840,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -15183,6 +15275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &304028158
 MonoBehaviour:
@@ -15568,6 +15661,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -74.872986
@@ -15748,6 +15845,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -16545,6 +16646,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -49.921234
@@ -17162,6 +17267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &337685494
 MonoBehaviour:
@@ -17539,6 +17645,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.78296
@@ -17670,6 +17780,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -17863,6 +17977,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &347995518
 MonoBehaviour:
@@ -18229,6 +18344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &354399920
 MonoBehaviour:
@@ -18478,6 +18594,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -19053,6 +19173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &373273023
 MonoBehaviour:
@@ -19300,6 +19421,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -458.6106
@@ -19431,6 +19556,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -19566,6 +19695,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -281.30463
@@ -19634,6 +19767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &381554240
 MonoBehaviour:
@@ -19928,6 +20062,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -21467,6 +21605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &424831518
 MonoBehaviour:
@@ -22006,6 +22145,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -22570,6 +22713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &452181224
 MonoBehaviour:
@@ -23807,6 +23951,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -477.08936
@@ -24165,6 +24313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &476040859
 MonoBehaviour:
@@ -24412,6 +24561,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.69998
@@ -24480,6 +24633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &477737186
 MonoBehaviour:
@@ -25000,6 +25154,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -103.48294
@@ -25131,6 +25289,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -25436,6 +25598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &493868041
 MonoBehaviour:
@@ -26343,6 +26506,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59.518097
@@ -26503,6 +26670,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.499985
@@ -26598,6 +26769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &518438261
 MonoBehaviour:
@@ -26903,6 +27075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &524441326
 MonoBehaviour:
@@ -28104,6 +28277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &550399913
 MonoBehaviour:
@@ -28820,7 +28994,6 @@ GameObject:
   - component: {fileID: 566885033}
   - component: {fileID: 566885032}
   - component: {fileID: 566885031}
-  - component: {fileID: 566885030}
   - component: {fileID: 566885029}
   - component: {fileID: 566885037}
   - component: {fileID: 566885036}
@@ -28828,6 +29001,7 @@ GameObject:
   - component: {fileID: 566885034}
   - component: {fileID: 566885038}
   - component: {fileID: 566885039}
+  - component: {fileID: 566885040}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -28857,29 +29031,6 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!136 &566885030
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 566885027}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &566885031
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29069,6 +29220,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GoalTrigger
   gameUI: {fileID: 804948894}
+--- !u!64 &566885040
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566885027}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &567539578 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4493914613880827488, guid: 6dc4cf4496348884d8ee27743ae38562, type: 3}
@@ -29088,6 +29261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &567539580
 MonoBehaviour:
@@ -29489,6 +29663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &574596050
 MonoBehaviour:
@@ -29666,6 +29841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &575097364
 MonoBehaviour:
@@ -29978,6 +30154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &577574090
 MonoBehaviour:
@@ -30843,6 +31020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &590098297
 MonoBehaviour:
@@ -31269,6 +31447,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -287
@@ -31402,6 +31584,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.69998
@@ -31497,6 +31683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &598175183
 MonoBehaviour:
@@ -32250,6 +32437,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -33309,6 +33500,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 219.29999
@@ -33571,6 +33766,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -463
@@ -33764,6 +33963,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &643972400
 MonoBehaviour:
@@ -33946,6 +34146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &645483288
 MonoBehaviour:
@@ -34128,6 +34329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &645884377
 MonoBehaviour:
@@ -34649,6 +34851,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &664450294
 MonoBehaviour:
@@ -34918,6 +35121,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -670.9549
@@ -35049,6 +35256,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -35307,6 +35518,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -453.68936
@@ -35375,6 +35590,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &682015946
 MonoBehaviour:
@@ -35776,6 +35992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &685365427
 MonoBehaviour:
@@ -36340,6 +36557,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -299.08337
@@ -36549,6 +36770,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -215.59999
@@ -36742,6 +36967,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &706260895
 MonoBehaviour:
@@ -37493,6 +37719,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 112.38906
@@ -37624,6 +37854,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -37909,6 +38143,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -38357,6 +38595,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -238.29997
@@ -38713,6 +38955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &745721393
 MonoBehaviour:
@@ -39334,6 +39577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &761387318
 MonoBehaviour:
@@ -41048,6 +41292,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.718094
@@ -41179,6 +41427,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -41811,6 +42063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &810110879
 MonoBehaviour:
@@ -42015,6 +42268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &813690725
 MonoBehaviour:
@@ -42197,6 +42451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &813779426
 MonoBehaviour:
@@ -42389,6 +42644,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &820667358
 MonoBehaviour:
@@ -43346,6 +43602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &844934352
 MonoBehaviour:
@@ -43528,6 +43785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &846384553
 MonoBehaviour:
@@ -44077,6 +44335,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -37.481903
@@ -44172,6 +44434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &855327997
 MonoBehaviour:
@@ -44692,6 +44955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &858718865
 MonoBehaviour:
@@ -44874,6 +45138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &860172089
 MonoBehaviour:
@@ -45179,6 +45444,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -45803,6 +46072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &870829173
 MonoBehaviour:
@@ -46182,6 +46452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &880303285
 MonoBehaviour:
@@ -46433,6 +46704,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 117.310295
@@ -46604,6 +46879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &884548233
 MonoBehaviour:
@@ -46835,6 +47111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &886561603
 MonoBehaviour:
@@ -47482,6 +47759,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 151.51709
@@ -47613,6 +47894,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -47768,6 +48053,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -48066,6 +48355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &907929268
 MonoBehaviour:
@@ -48359,6 +48649,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &908268903
 MonoBehaviour:
@@ -48659,6 +48950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &913941701
 MonoBehaviour:
@@ -48967,6 +49259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &917540041
 MonoBehaviour:
@@ -51394,6 +51687,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.154892
@@ -51525,6 +51822,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -51806,6 +52107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &977400118
 MonoBehaviour:
@@ -51983,6 +52285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &978979620
 MonoBehaviour:
@@ -52273,6 +52576,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &982367914
 MonoBehaviour:
@@ -52553,6 +52857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &982509208
 MonoBehaviour:
@@ -53068,6 +53373,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 101.95541
@@ -53537,6 +53846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1002580895
 MonoBehaviour:
@@ -53768,6 +54078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1003658101
 MonoBehaviour:
@@ -54106,6 +54417,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -54503,6 +54818,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -55659,8 +55978,8 @@ Transform:
   m_GameObject: {fileID: 1058175762}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.22787549, w: 0.9736903}
-  m_LocalPosition: {x: 94.3, y: 57.7, z: -90.5}
-  m_LocalScale: {x: 127.02037, y: 10, z: 42.445}
+  m_LocalPosition: {x: 94.7, y: 57.7, z: -90.5}
+  m_LocalScale: {x: 121.577545, y: 10, z: 42.445}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -55769,6 +56088,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -56038,6 +56361,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 106.69369
@@ -56209,6 +56536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1064941522
 MonoBehaviour:
@@ -56440,6 +56768,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1067533873
 MonoBehaviour:
@@ -56725,6 +57054,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1073362262
 MonoBehaviour:
@@ -57409,6 +57739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1081367340
 MonoBehaviour:
@@ -57784,6 +58115,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -58874,6 +59209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1096325400
 MonoBehaviour:
@@ -59083,6 +59419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1100107831
 MonoBehaviour:
@@ -59535,6 +59872,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -60024,6 +60365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1120164605
 MonoBehaviour:
@@ -60606,6 +60948,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -655.6
@@ -60786,6 +61132,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -61262,6 +61612,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1155376658
 MonoBehaviour:
@@ -61731,6 +62082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1160929314
 MonoBehaviour:
@@ -62377,6 +62729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1173366169
 MonoBehaviour:
@@ -63056,6 +63409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1199203967
 MonoBehaviour:
@@ -63238,6 +63592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1200864935
 MonoBehaviour:
@@ -63485,6 +63840,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -226.2166
@@ -63645,6 +64004,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -238.99998
@@ -63776,6 +64139,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -63931,6 +64298,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -64346,6 +64717,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.499985
@@ -64414,6 +64789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1228622727
 MonoBehaviour:
@@ -64596,6 +64972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1232361064
 MonoBehaviour:
@@ -64885,6 +65262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1242754274
 MonoBehaviour:
@@ -65420,6 +65798,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -226.2166
@@ -65599,6 +65981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1249368986
 MonoBehaviour:
@@ -66141,6 +66524,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5833893
@@ -66278,6 +66665,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 93.9103
@@ -66373,6 +66764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1273300967
 MonoBehaviour:
@@ -66989,6 +67381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1284404835
 MonoBehaviour:
@@ -67238,6 +67631,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -67518,6 +67915,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -68404,6 +68805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1312013929
 MonoBehaviour:
@@ -69017,6 +69419,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -61.264862
@@ -69211,6 +69617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1326232601
 MonoBehaviour:
@@ -69456,6 +69863,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -69813,6 +70224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1344204228
 MonoBehaviour:
@@ -69990,6 +70402,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1345229565
 MonoBehaviour:
@@ -70237,6 +70650,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 158.86218
@@ -70447,6 +70864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1357224771
 MonoBehaviour:
@@ -70836,6 +71254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1361977899
 MonoBehaviour:
@@ -72250,6 +72669,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -476.38934
@@ -72628,6 +73051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1405994674
 MonoBehaviour:
@@ -72900,6 +73324,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -73685,6 +74113,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -250.29997
@@ -73856,6 +74288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1437151577
 MonoBehaviour:
@@ -74301,6 +74734,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 117.310295
@@ -74396,6 +74833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1448431142
 MonoBehaviour:
@@ -74659,6 +75097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1450770693
 MonoBehaviour:
@@ -74971,6 +75410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1452375571
 MonoBehaviour:
@@ -75370,6 +75810,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -230.95488
@@ -75598,6 +76042,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1461199200
 MonoBehaviour:
@@ -75898,6 +76343,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 124.82839
@@ -76167,6 +76616,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -76628,6 +77081,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -91.48294
@@ -76897,6 +77354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1486644068
 MonoBehaviour:
@@ -77079,6 +77537,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1487022896
 MonoBehaviour:
@@ -77780,6 +78239,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 194.01031
@@ -77911,6 +78374,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -78089,6 +78556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1506493057
 MonoBehaviour:
@@ -78695,6 +79163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1518687498
 MonoBehaviour:
@@ -78942,6 +79411,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -487.08337
@@ -79184,6 +79657,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -79551,6 +80028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1539800185
 MonoBehaviour:
@@ -79934,6 +80412,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -80754,6 +81236,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 150.81708
@@ -80885,6 +81371,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -81304,6 +81794,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -81881,6 +82375,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -94.21808
@@ -81950,7 +82448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!328 &1571269154
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -82103,6 +82601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1572389148
 MonoBehaviour:
@@ -82396,6 +82895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1574507884
 MonoBehaviour:
@@ -82694,6 +83194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1581967500
 MonoBehaviour:
@@ -82941,6 +83442,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -238.29997
@@ -83095,7 +83600,7 @@ Transform:
   m_GameObject: {fileID: 1584373785}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.21454228, w: 0.97671473}
-  m_LocalPosition: {x: 90.4, y: 12.5, z: -318.7}
+  m_LocalPosition: {x: 94.5, y: 11, z: -318.7}
   m_LocalScale: {x: 107.272, y: 10, z: 42.445}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -83330,6 +83835,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -83785,6 +84294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1596184536
 MonoBehaviour:
@@ -84027,6 +84537,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 62.078766
@@ -84158,6 +84672,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -84812,6 +85330,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -70.134705
@@ -85195,6 +85717,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 250.21808
@@ -85388,6 +85914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1633393931
 MonoBehaviour:
@@ -85570,6 +86097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1636468413
 MonoBehaviour:
@@ -85815,6 +86343,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -86471,6 +87003,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -522.3
@@ -86632,6 +87168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1656231797
 MonoBehaviour:
@@ -87367,6 +87904,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 228.7103
@@ -87906,6 +88447,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -88750,6 +89295,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1712960214
 MonoBehaviour:
@@ -89028,6 +89574,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 112.38906
@@ -89096,6 +89646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1721637252
 MonoBehaviour:
@@ -89580,6 +90131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1731493226
 MonoBehaviour:
@@ -90294,6 +90846,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -84.13785
@@ -90625,6 +91181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1757404274
 MonoBehaviour:
@@ -90872,6 +91429,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 51.64511
@@ -91057,6 +91618,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -91268,6 +91833,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -488.38934
@@ -91412,6 +91981,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1768174361
 MonoBehaviour:
@@ -92011,6 +92581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1775474151
 MonoBehaviour:
@@ -92524,6 +93095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1791558924
 MonoBehaviour:
@@ -92769,6 +93341,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -93319,6 +93895,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -220.52122
@@ -93450,6 +94030,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -93770,6 +94354,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -94101,6 +94689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1819083901
 MonoBehaviour:
@@ -94394,6 +94983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1823281908
 MonoBehaviour:
@@ -94576,6 +95166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1825833033
 MonoBehaviour:
@@ -95002,6 +95593,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -660.52124
@@ -95119,6 +95714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1832354494
 MonoBehaviour:
@@ -95554,6 +96150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1837252981
 MonoBehaviour:
@@ -96206,6 +96803,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 94.61031
@@ -96700,6 +97301,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1864837068
 MonoBehaviour:
@@ -97737,6 +98339,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.35489
@@ -97940,6 +98546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1892669272
 MonoBehaviour:
@@ -98530,6 +99137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1900811268
 MonoBehaviour:
@@ -98859,6 +99467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1908729486
 MonoBehaviour:
@@ -99280,6 +99889,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -444.8653
@@ -99438,6 +100051,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -100016,6 +100633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1926862773
 MonoBehaviour:
@@ -100265,6 +100883,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -100587,6 +101209,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.399994
@@ -100872,6 +101498,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -311.08337
@@ -101003,6 +101633,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -101266,6 +101900,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -101801,6 +102439,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1956348020
 MonoBehaviour:
@@ -102337,6 +102976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1968755698
 MonoBehaviour:
@@ -102627,6 +103267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1971818565
 MonoBehaviour:
@@ -102945,6 +103586,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 220
@@ -103076,6 +103721,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -103486,6 +104135,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -467.73828
@@ -103652,6 +104305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &1993850779
 MonoBehaviour:
@@ -103815,6 +104469,75 @@ MonoBehaviour:
   drawDebug: 1
   gizmoVisibleColor: {r: 1, g: 0, b: 0, a: 1}
   gizmoOccludedColor: {r: 1, g: 0.6, b: 0, a: 0.15}
+--- !u!1001 &1994844145
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_Name
+      value: Helicopter
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 102.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 138
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -133.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6536301
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7568142
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -98.368
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
 --- !u!1 &1995639744 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1255947835851222, guid: f463242ba59e68243b7a693d4f0cfc18, type: 3}
@@ -104151,6 +104874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2002563270
 MonoBehaviour:
@@ -104328,6 +105052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2004605591
 MonoBehaviour:
@@ -104981,6 +105706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2015565091
 MonoBehaviour:
@@ -105163,6 +105889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2016488534
 MonoBehaviour:
@@ -105486,6 +106213,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 206.01031
@@ -105617,6 +106348,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -106099,6 +106834,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.70419
@@ -106167,6 +106906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2035315322
 MonoBehaviour:
@@ -106349,6 +107089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2036036371
 MonoBehaviour:
@@ -106531,6 +107272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2038829734
 MonoBehaviour:
@@ -106825,6 +107567,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -107300,6 +108046,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -220.52122
@@ -107435,6 +108185,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -107823,6 +108577,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2060963678
 MonoBehaviour:
@@ -108768,6 +109523,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: 213.35541
@@ -108863,6 +109622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2073046637
 MonoBehaviour:
@@ -109045,6 +109805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2073934185
 MonoBehaviour:
@@ -109338,6 +110099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2081605133
 MonoBehaviour:
@@ -109585,6 +110347,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -215.59999
@@ -109773,6 +110539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2087748901
 MonoBehaviour:
@@ -109977,6 +110744,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2088086116
 MonoBehaviour:
@@ -110208,6 +110976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2092745598
 MonoBehaviour:
@@ -110417,6 +111186,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2094947511
 MonoBehaviour:
@@ -110653,6 +111423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2098563487
 MonoBehaviour:
@@ -111194,6 +111965,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -111882,6 +112657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ZombieCatch
   player: {fileID: 566885033}
   catchRange: 5
+  verticalTolerance: 5
   gameUI: {fileID: 804948894}
 --- !u!114 &2118072203
 MonoBehaviour:
@@ -112539,6 +113315,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: m_LocalPosition.x
       value: -509.5166
@@ -112670,6 +113450,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -112834,6 +113618,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -113121,6 +113909,10 @@ PrefabInstance:
       propertyPath: catchRange
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8892794397716248552, guid: 0f69f821673886c46bb464adbcfdddf4, type: 3}
+      propertyPath: verticalTolerance
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 9066580709223845159, guid: 0f69f821673886c46bb464adbcfdddf4, type: 3}
       propertyPath: m_Speed
       value: 7
@@ -113217,6 +114009,10 @@ PrefabInstance:
       objectReference: {fileID: 566885033}
     - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
       propertyPath: catchRange
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5831415865760272579, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
+      propertyPath: verticalTolerance
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8636357037321975901, guid: 7f558a3d185dc4844b6c631018784664, type: 3}
@@ -113809,3 +114605,4 @@ SceneRoots:
   - {fileID: 529896826}
   - {fileID: 638057295}
   - {fileID: 1571269158}
+  - {fileID: 1994844145}

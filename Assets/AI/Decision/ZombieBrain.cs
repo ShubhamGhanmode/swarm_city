@@ -53,7 +53,7 @@ public class ZombieBrain : MonoBehaviour
     {
         if (!bb.lastSeen.HasValue && !bb.lastHeard.HasValue)
             bb.suspicion = Mathf.Max(0f, bb.suspicion - 0.2f * Time.deltaTime);
-        fsm.Tick(Time.deltaTime);
+        fsm.Tick(Time.deltaTime); 
     }
 
     void SetState(IState next, string name)

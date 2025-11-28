@@ -4,6 +4,7 @@ public class ZombieCatch : MonoBehaviour
 {
     public Transform player;   
     public float catchRange = 1.2f;
+    public float verticalTolerance = 0.6f;
     public GameUI gameUI;      
     bool caught;
 
@@ -22,7 +23,12 @@ public class ZombieCatch : MonoBehaviour
     {
         if (caught) return;
         if (!player) return;
-        if (Vector3.Distance(transform.position, player.position) <= catchRange)
+        Vector3 selfPos = transform.position;
+        Vector3 playerPos = player.position;
+        float verticalGap = Mathf.Abs(selfPos.y - playerPos.y);
+        if (verticalGap > verticalTolerance) return;
+        Vector2 planar = new Vector2(selfPos.x - playerPos.x, selfPos.z - playerPos.z);
+        if (planar.magnitude <= catchRange)
         {
             if (gameUI) gameUI.ShowMessage("Caught");
             Time.timeScale = 0f;

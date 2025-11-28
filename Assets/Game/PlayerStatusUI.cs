@@ -10,7 +10,6 @@ public class PlayerStatusUI : MonoBehaviour
     {
         if (!player || !label) return;
         string stance = player.IsCrouched ? "Crouching" : "Standing";
-        string grounded = player.IsGrounded ? "Grounded" : "Air";
-        label.text = $"State: {stance} | {grounded}";
+        label.text = $"State: {stance}";
     }
 }

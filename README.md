@@ -58,7 +58,7 @@ A configurable spawner instantiates zombies around a center point, sampling the 
 - **Left Click** — Emit lure noise at cursor hit point
 - **Any key** — Skip intro video
 
-## 📌 Next Steps (ideas)
+## 📌 Future Ideas (will try implement, probably)
 - Expand influence map usage for group tactics (e.g., swarming toward “hot” cells).
 - Add melee/combat interactions and health UI.
 - Experiment with utility-based scoring layered on top of the existing FSM.

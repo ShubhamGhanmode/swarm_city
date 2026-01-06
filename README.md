@@ -58,12 +58,6 @@ A configurable spawner instantiates zombies around a center point, sampling the 
 - **Left Click** — Emit lure noise at cursor hit point
 - **Any key** — Skip intro video
 
-## 🌟 What to Showcase in an Interview
-- **Readable AI**: The FSM + Blackboard pattern keeps decision code tiny yet expressive.
-- **Perception depth**: Combined vision/hearing with noise scoring and crouch-aware suppression enables stealth mechanics.
-- **Debuggability**: Rich gizmos for FOV, hearing ranges, and influence cells accelerate tuning.
-- **Content integration**: Mix of authored assets, ambient audio, and cinematic touches demonstrate production sensibilities.
-
 ## 📌 Next Steps (ideas)
 - Expand influence map usage for group tactics (e.g., swarming toward “hot” cells).
 - Add melee/combat interactions and health UI.

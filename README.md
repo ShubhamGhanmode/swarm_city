@@ -3,7 +3,7 @@
 A Unity-powered first-person survival prototype set in a gritty urban block overrun by zombies. This repo highlights clean gameplay code, lightweight AI building blocks, and production-ready content aimed to impress recruiters and collaborators.
 
 ## ✨ Highlights
-- **Modern Unity (2024)** — Built on Unity `6000.2.13f1`, ready for current engine pipelines.
+- **Modern Unity (2025)** — Built on Unity `6000.2.13f1`, ready for current engine pipelines.
 - **Gameplay-ready controllers** — Smooth first-person movement with mouse look, crouching, and noise-aware footstep logic that feeds AI perception.
 - **Cinematic intro** — Optional video splash that can be skipped with any key for rapid iteration.
 - **Diegetic UI** — Simple HUD elements that react to player stance and objectives.
